@@ -1,9 +1,9 @@
-const versionLocalStorageKey = 'version';
-
 const versions = [
   '1.0.x',
   'bsp',
 ];
+
+const versionLocalStorageKey = 'version';
 
 const root = document.getElementById('root');
 
