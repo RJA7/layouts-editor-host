@@ -18,7 +18,7 @@ function main() {
 }
 
 function switchToVersion(version) {
-  window.location.href = `./${version}`;
+  window.location.href = `./${version}?v=${Date.now()}`;
 }
 
 function handleVersionClick(version) {
