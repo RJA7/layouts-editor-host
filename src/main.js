@@ -29,8 +29,8 @@ function handleVersionClick(version) {
 function showVersionsList(lastUsedVersion) {
   root.innerHTML = `
 <div class="versions-list">
-  <div style="font-size: 24px; line-height: 40px;">Choose a version</div>
-  ${lastUsedVersion ? (`<div class="version-item" onclick="handleVersionClick('${lastUsedVersion}');">${lastUsedVersion} last used</div>`) : ''}
+  <div style="font-size: 24px; line-height: 40px;">Select a version</div>
+  ${lastUsedVersion ? (`<div class="version-item" onclick="handleVersionClick('${lastUsedVersion}');">${lastUsedVersion} (last used)</div>`) : ''}
   ${versions.map((version) => `<div class="version-item" onclick="handleVersionClick('${version}');">${version}</div>`).join('')}
 </div>`;
 }
