@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport"
+          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <title id="title">Layouts editor</title>
+</head>
+<body>
+
+<div id="react-app"></div>
+
+<script>
+    const script = document.createElement('script');
+    script.src = `./js/app.js?v=${Date.now()}`;
+    document.body.appendChild(script);
+</script>
+
+</body>
+</html>
