@@ -1,6 +1,5 @@
 const versions = [
-  '1.0.0-staged',
-  '1.0.x',
+  '1.0.0',
   'bsp',
 ];
 
