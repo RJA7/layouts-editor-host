@@ -1,6 +1,7 @@
 const versions = [
   '1.0.0',
   'bsp',
+  'mahjong',
 ];
 
 const versionLocalStorageKey = 'version';
